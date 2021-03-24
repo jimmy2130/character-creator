@@ -3,11 +3,22 @@
   padding-bottom: 64px;
 }
 
+.perspectiveBar {
+  position: fixed;
+  bottom: 0px;
+  height: 40%;
+  width: 100%;
+  background: hsl(195deg, 20%, 86%);
+}
+
 .maxWidthWrapper {
+  /*border: 1px solid red;*/
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
+  /*border: 1px solid #000;*/
 }
 
 .title {
@@ -24,7 +35,14 @@
 }
 
 .characterWrapper {
+  /*border: 1px solid #000;*/
+  position: fixed;
+  top: 128px;
+  right: 64px;
+  min-height: 500px;
+  width: 500px;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
